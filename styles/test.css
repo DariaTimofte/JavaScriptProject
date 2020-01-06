@@ -1,0 +1,270 @@
+#header{
+  width: 30%;
+  margin:auto;
+  margin-top: 0px;
+}
+
+#logo{
+  width: 85%;
+  margin: auto;
+}
+
+body{
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+nav {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#nav-3 {
+ background-color: #cc0000;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background-color: #cc0000;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #cc0000;
+  border-bottom: 4px solid #cc0000;
+  padding: 20px 0;
+  margin: 0 15px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.carousel-item{
+  margin:auto;
+  width: 90%;
+}
+
+#cartul{
+    width: 40px;
+    
+}
+
+* {box-sizing: border-box}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.row {
+    margin: 8px -14px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 7px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  
+}
+
+.myImg:hover {
+  opacity: 0.7;
+  width: 100%;
+}
+
+.market{
+  right: 0;
+  position: relative;
+  display: inline-block;
+}
+
+#shoppingCart{
+  position: absolute;
+  overflow: hidden;
+  width: 300px;
+  background-color: #cc0000;
+  z-index: 200;
+  height: auto;
+  display: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.produs{
+  width: 300px;
+  text-align: left;
+}
+
+
+.widgetImg{
+  width: 45px;
+  height: auto;
+}
+
+#shoppingCart div{
+  border-bottom: 2px solid white;
+}
+
+.cls{
+  width: 70%;
+  margin: auto;
+}
+
+.zoom,.cart{
+  padding: 3px;
+}
+
+.desc{
+  height: 86px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 20vw;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+.dropdown{
+  display: inline;
+}
+
+.btn-secondary{
+  background-color: #cc0000 !important;
+  border-color: #cc0000 !important;
+}
+secondary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+.remove{
+  background-color: white;
+  float: right;
+  border-radius: 50%;
+}
